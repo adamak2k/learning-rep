@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Best Site Ever</title>
+  </head>
+
+  <body bgcolor="#77CCF1">
+
+    <center><p id="timeplace"></p></center>
+    <center><p id="losttime"></p></center>
+
+
+    <h1 title="Test" style="text-align:center">10/10</h1>
+    <br/>
+    <div id="navigation">
+      <div id="kek" style="background-color:coral;" onmouseover="Test(1)" onmouseout="Test(2)" onclick="javascript:location.href='index.html'"><b>Home</b></div>
+      <div id="keke" style="background-color:coral;" onmouseover="Test(3)" onmouseout="Test(4)" onclick="javascript:location.href='info.html'"><b>Info</b></div>
+      <div id="kekeke" style="background-color:coral;" onmouseover="Test(5)" onmouseout="Test(6)" onclick="javascript:location.href='contact.html'"><b>Contact</b></div>
+      </div>
+    <br/><br/><hr/>
+
+    <div id="wrapper">
+    <div id="title123" style="color:blue" onmouseover="ZmianaKoloru(1)" onmouseout="ZmianaKoloru(2)">Best script ever</div>
+    <div id="title1234" style="color:blue" onmouseover="ZmianaKoloru(3)" onmouseout="ZmianaKoloru(4)" onclick="Time()" style="float:right;">Check Time!</div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <center>
+
+    <input id="inputtext" type="text" name="text"></input>
+    <button onclick="myFunction()">Klik</button>
+    <br/>
+    So, you just wrote <div id="received" style="display: inline">nothing yet..</div>.
+
+    <center>
+
+      <script>
+      function myFunction() {
+          document.getElementById("received").innerHTML=document.getElementById("inputtext").value;
+      }
+      </script>
+
+    </center>
+
+  </body>
+
+</html>
